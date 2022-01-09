@@ -1,0 +1,19 @@
+Link para download do Git: https://git-scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+O comando git clone junto com o endereço (.git) copiado do repositório transfere o conteúdo do repositório para minha máquina local.
+
+O comando git status averigua os dados da maquina local com os do repositório git.
+Obs.: O bash precisa estar dentro da pasta que foi baixada pelo comando git clone.
+
+O comando git add . ou o comando git add -A adiciona todos os arquivos no controle de versão local.
+
+O comando git commit inclui o conjunto local no repositório.
+OBS.: Podemos adicionar uma mensagem usando git commit -m "mensagem de atualização"
+
+A primeira vez que se usa o Git é preciso adicionar informações de repositório. São elas:
+git config --global user.email "marcelopaulo6@hotmail.com"
+git config --global user.name "EngMarceloPaulo"
+
+O comando git push origin main adiciona os conteúdos do desktop no repositório do Git.
+
